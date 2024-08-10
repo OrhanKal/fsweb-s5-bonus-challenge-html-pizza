@@ -1,0 +1,78 @@
+
+
+:root {
+    --sari: #FDC913;
+    --acik-gri: #5F5F5F;
+    --koyu-gri: #292929;
+    --kirmizi: #CE2829;
+    --bej: #FAF7F2;
+  }
+
+  body  {
+    color: white;
+    margin: 0%;
+  }
+
+
+  h1 {
+    width: 361.93px;
+    height: 45.79px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 120px;
+    font-size: 43px;
+
+  }
+
+  header p {
+    width: 398px;
+    height: 368px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 86px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  header {
+    background-color: var(--kirmizi);
+    width: 585.13px;
+    height: 1080.53px;
+    top: -6px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Condensed;
+    text-align: center;
+    }
+
+   header button {
+    background: var(--sari);
+    font-size: 24px;
+    color: var(--bej);
+    font-family: Barlow; 
+    width: 193.27px;
+    height: 56px;
+    padding: 1.73px 50.16px 2.27px 49.64px;
+    gap: 0px;
+    border-radius: 50px;
+    border-style: hidden;
+    opacity: 0px;
+   }
+
+   .main-container {
+    background-image: url("public/assets/iteration-1/home-banner.png");
+    background-position: center bottom;
+    background-size: 200%;
+    background-repeat: no-repeat;
+
+   }
+
+  @media screen and (max-width: 580px) {
+    body {
+        min-width: 300px;
+    }
+  }
