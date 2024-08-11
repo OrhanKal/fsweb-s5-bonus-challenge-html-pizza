@@ -1,4 +1,7 @@
-
+* {
+  border: 1px solid blue;
+  background-color: #fdca132d;
+}
 
 :root {
     --sari: #FDC913;
@@ -70,6 +73,24 @@
     background-repeat: no-repeat;
 
    }
+
+   .nav-items {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .nav-section {
+    display: flex;
+    justify-content: center;
+   }
+   .nav-items a {
+    text-decoration: none;
+    color: var(--koyu-gri);
+    font-family: Barlow;
+    font-weight: 500;
+   }
+
 
   @media screen and (max-width: 580px) {
     body {
