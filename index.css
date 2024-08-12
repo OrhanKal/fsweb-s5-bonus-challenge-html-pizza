@@ -1,7 +1,7 @@
- @import url("./reset.css"); 
- *{
-  border: 1px solid blue;
-  background-color: #fdca132d;
+@import url("./reset.css"); 
+*{
+ border: 1px solid blue;
+ background-color: #fdca132d;
 }
 
 :root {
@@ -61,8 +61,9 @@ header button {
 .nav-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 30%;
+  justify-content: center;
+  gap: 10%;
+  padding: 2rem 0;
 }
 .nav-items a {
   text-decoration: none;
@@ -74,7 +75,12 @@ header button {
   display: flex;
   align-items: center;
 }
-
+.nav-item {
+  width: 32%;
+  gap: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
 
 .mock-screen {
   max-width: 600px;
