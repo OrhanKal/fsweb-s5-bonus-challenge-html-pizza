@@ -91,18 +91,21 @@ header button {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: barlow;
+  font-weight: 500;
 }
 
 .ozel-lezzetus-card {
   background-image: url("public/assets/iteration-2/cta/kart-1.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px;
   height: 336px;
+  padding: 2rem;
 }
 .ozel-lezzetus-card h2 {
-  
+  font-family: Quattrocento;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 .hackathlon-burger-card {
   background-color: #292929;
@@ -112,13 +115,44 @@ header button {
   background-repeat: no-repeat;
   background-position: center;
   height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 10%;
+}
+.hackathlon-burger-card h2{
+  width: 50%;
+  font-weight: 600;
+  margin-bottom: 10%;
 }
 .npm-card {
   background-image: url("public/assets/iteration-2/cta/kart-3.png");
-  height: 270px;
+  height: 200px;
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 5%;
+}
+.npm-card h2{
+  width: 50%;
+  font-weight: 600;
+  margin-bottom: 10%;
+  color: #292929;
+}
+.npm-card h2 span{
+  color: red;
+}
+.btn-card {
+  background-color: var(--bej);
+  border-radius: 50px;
+  width: 138px;
+  height: 48px;
+  color: #ce2829;
+  font-family: barlow;
+  font-weight: 600;
 }
 @media screen and (max-width: 580px) {
   body {
