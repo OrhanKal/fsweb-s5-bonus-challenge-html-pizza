@@ -107,6 +107,10 @@ header button {
   font-size: 4rem;
   line-height: 4rem;
 }
+
+.ozel-lezzetus-card button {
+  margin-top: 10%;
+}
 .hackathlon-burger-card {
   background-color: #292929;
   border-radius: 12px;
