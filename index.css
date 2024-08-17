@@ -206,7 +206,35 @@ header button {
   background-color: var(--koyu-gri);
   transition-duration: 0.4s;
 }
-
+.advenced-menu-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 3rem 0 0 0;
+font-family: Barlow;
+gap: 1rem;
+}
+.advenced-menu-section div{
+  color: #292929;
+  border: 1px solid #292929;
+  border-radius: 12px;
+  background-color: white;
+  border-style: hidden;
+  padding: 0 1% 1% 1%;
+}
+.advenced-menu-section .advenced-menu div{
+  display: flex;
+  justify-content: space-between;
+}
+.advenced-menu-section .advenced-menu p{
+  display: inline-flex;
+}
+.fiyat {
+  gap: 2rem;
+}
+.fiyat .para{
+  font-weight: 600;
+}
 @media screen and (max-width: 580px) {
   body {
     min-width: 300px;
