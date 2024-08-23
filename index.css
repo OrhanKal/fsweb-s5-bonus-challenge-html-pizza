@@ -92,6 +92,9 @@ header button {
   font-family: barlow;
   font-weight: 500;
 }
+.btn-card {
+  border-style: none;
+}
 
 .ozel-lezzetus-card {
   background-image: url("public/assets/iteration-2/cta/kart-1.png");
@@ -113,14 +116,14 @@ header button {
   background-color: #292929;
   border-radius: 12px;
   background-image: url("public/assets/iteration-2/cta/kart-2.png");
-  background-size: 100%;
+  background-size: 70%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0 0 10%;
+  padding: 0 0 0 5%;
 }
 .hackathlon-burger-card h2{
   width: 50%;
@@ -232,9 +235,45 @@ gap: 1rem;
 .fiyat {
   gap: 2rem;
 }
-.fiyat .para{
+.para{
   font-weight: 600;
 }
+footer {
+  background-color: var(--koyu-gri);
+  font-family: Barlow;
+  font-weight: 300;
+  padding: 3rem;
+}
+footer h1{
+  width: 50%; 
+}
+.adres div {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+.hot-menu{
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0 2rem 0;
+}
+
+.insta-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 70%;
+  margin: 2rem 0 2rem 0;
+
+}
+
+.info {
+  padding: 2rem 0 0 0;
+  border-top: 1px solid var(--acik-gri);
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 580px) {
   body {
     min-width: 300px;
