@@ -16,7 +16,8 @@ body {
 }
 
 h1 {
-  font-size: 43px;
+  font-size: 40px;
+  font-family: Londrina Solid;
 }
 
 header p {
@@ -34,14 +35,16 @@ header {
   font-family: Roboto Condensed;
   text-align: center;
   padding: 6rem;
+  height: 1000px;
 }
 
 header button {
   background: var(--sari);
   font-size: 24px;
-  color: var(--bej);
+  color: var(--koyu-gri);
   font-family: Barlow;
-  padding: 1.73px 50.16px 2.27px 49.64px;
+  font-weight: 700;
+  padding: 0.5rem 3rem;
   border-radius: 50px;
   border-style: hidden;
 }
@@ -80,7 +83,7 @@ header button {
 }
 
 .mock-screen {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -213,7 +216,7 @@ header button {
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 3rem 0 0 0;
+margin: 3rem 0 3rem 0;
 font-family: Barlow;
 gap: 1rem;
 }
@@ -246,6 +249,7 @@ footer {
 }
 footer h1{
   width: 50%; 
+  font-family: Londrina Solid;
 }
 .adres div {
   display: flex;
@@ -262,7 +266,7 @@ footer h1{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  width: 70%;
+  width: 80%;
   margin: 2rem 0 2rem 0;
 
 }
@@ -273,6 +277,7 @@ footer h1{
   display: flex;
   justify-content: space-between;
 }
+ 
 
 @media screen and (max-width: 580px) {
   body {
