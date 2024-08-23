@@ -14,7 +14,10 @@ body {
   margin: 0%;
   background-color: var(--bej);
 }
-
+.mock-screen {
+  max-width: 500px;
+  margin: 0 auto;
+}
 h1 {
   font-size: 40px;
   font-family: Londrina Solid;
@@ -28,17 +31,19 @@ header p {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-header {
   background-color: var(--kirmizi);
   font-family: Roboto Condensed;
   text-align: center;
   padding: 6rem;
   height: 1000px;
+  background-image: url("public/assets/iteration-1/home-banner.png");
+  background-position: center bottom;
+  background-size: 200%;
+  background-repeat: no-repeat;
 }
 
-header button {
+
+.main-container button {
   background: var(--sari);
   font-size: 24px;
   color: var(--koyu-gri);
@@ -47,13 +52,6 @@ header button {
   padding: 0.5rem 3rem;
   border-radius: 50px;
   border-style: hidden;
-}
-
-.main-container {
-  background-image: url("public/assets/iteration-1/home-banner.png");
-  background-position: center bottom;
-  background-size: 200%;
-  background-repeat: no-repeat;
 }
 .nav-section {
   display: flex;
@@ -67,12 +65,6 @@ header button {
   padding: 2rem 0;
   background-color: white
 }
-.nav-items a {
-  text-decoration: none;
-  color: var(--koyu-gri);
-  font-family: Barlow;
-  font-weight: 500;
-}
 .nav-items div {
   display: flex;
   align-items: center;
@@ -81,10 +73,11 @@ header button {
   margin-bottom: 8px;
   margin-top: 8px;
 }
-
-.mock-screen {
-  max-width: 500px;
-  margin: 0 auto;
+.nav-items a {
+  text-decoration: none;
+  color: var(--koyu-gri);
+  font-family: Barlow;
+  font-weight: 500;
 }
 
 .ad-cards-section {
@@ -95,9 +88,7 @@ header button {
   font-family: barlow;
   font-weight: 500;
 }
-.btn-card {
-  border-style: none;
-}
+
 
 .ozel-lezzetus-card {
   background-image: url("public/assets/iteration-2/cta/kart-1.png");
@@ -156,6 +147,7 @@ header button {
 .btn-card {
   background-color: var(--bej);
   border-radius: 50px;
+  border-style: none;
   width: 138px;
   height: 48px;
   color: #ce2829;
@@ -202,7 +194,6 @@ header button {
   background-color: white;
   border-radius: 24px;
   border-style: hidden;
-  text-decoration: none;
   color: var(--koyu-gri);
   font-weight: 500;
   font-family: Barlow;
@@ -228,11 +219,11 @@ gap: 1rem;
   border-style: hidden;
   padding: 0 1% 1% 1%;
 }
-.advenced-menu-section .advenced-menu div{
+.advenced-menu div{
   display: flex;
   justify-content: space-between;
 }
-.advenced-menu-section .advenced-menu p{
+.advenced-menu p{
   display: inline-flex;
 }
 .fiyat {
@@ -279,8 +270,3 @@ footer h1{
 }
  
 
-@media screen and (max-width: 580px) {
-  body {
-    min-width: 300px;
-  }
-}
